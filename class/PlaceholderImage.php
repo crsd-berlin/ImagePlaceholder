@@ -50,7 +50,7 @@
                     $fontFile = ($this->fontFile!='')  ?  $this->fontFile  :  'Arvo-Regular.ttf';
                     $fontSize = 20;
 
-                    $lineThickness = 1;
+                    #$lineThickness = 1;
 
 
                     // Create image			
@@ -69,8 +69,8 @@
 
 
                     // Add cross                                
-                    $this->imagelinethick($this->image, 0, 0, $w, $h, $lineColor, $lineThickness);
-                    $this->imagelinethick($this->image, $w, 0, 0, $h, $lineColor, $lineThickness);
+                    #$this->imagelinethick($this->image, 0, 0, $w, $h, $lineColor, $lineThickness);
+                    #$this->imagelinethick($this->image, $w, 0, 0, $h, $lineColor, $lineThickness);
 
 
                     // Write text                           
